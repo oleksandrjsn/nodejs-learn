@@ -1,0 +1,27 @@
+{
+  "name": "nodejs-learn",
+  "version": "1.0.0",
+  "description": "Learning repo",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oleksandrjsn/nodejs-learn.git"
+  },
+  "author": "oleksandrjsn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oleksandrjsn/nodejs-learn/issues"
+  },
+  "homepage": "https://github.com/oleksandrjsn/nodejs-learn#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
